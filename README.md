@@ -1,1 +1,1 @@
-# stepik_auto_tests_course
+# stepik_auto_tests_course - открытый репозиторий для реализации заданий курса selenium + python
