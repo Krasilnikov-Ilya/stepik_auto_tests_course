@@ -8,6 +8,7 @@ try:
     input2 = browser.find_element_by_css_selector("input[required].second").send_keys("Petrov")
     input3 = browser.find_element_by_css_selector("input[required].third").send_keys("mail@mail.com") 
     button = browser.find_element_by_css_selector("button.btn").click() # я не стал заполнять необязательные поля, условия задачи этого не требуют
+    time.sleep(5)
     assert "Congratulations! You have successfully registered!" == welcome_text
     
 finally:
@@ -21,6 +22,7 @@ try:
     input2 = browser.find_element_by_css_selector("input[required].second").send_keys("Petrov")
     input3 = browser.find_element_by_css_selector("input[required].third").send_keys("mail@mail.com")
     button = browser.find_element_by_css_selector("button.btn").click()
+    time.sleep(5)
     assert "Congratulations! You have successfully registered!" == welcome_text
 
 finally:
